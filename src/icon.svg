@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="ring" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#b9a0f7"/>
+      <stop offset=".45" stop-color="#edc182"/>
+      <stop offset="1" stop-color="#f5d9ac"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset=".35" stop-color="#edc182" stop-opacity="0"/>
+      <stop offset=".6" stop-color="#b9a0f7" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#07080d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="256" height="256" rx="48" fill="#07080d"/>
+  <circle cx="128" cy="128" r="119" fill="url(#halo)"/>
+  <g transform="rotate(-24 128 128)">
+    <ellipse cx="128" cy="128" rx="101" ry="27" fill="none" stroke="url(#ring)" stroke-width="2" opacity=".35"/>
+    <circle cx="128" cy="128" r="55" fill="#07080d" stroke="url(#ring)" stroke-width="3"/>
+    <path d="M 33,128 C 33,153 223,153 223,128" fill="none" stroke="url(#ring)" stroke-width="6"/>
+    <path d="M 42,132 C 64,148 192,148 214,132" fill="none" stroke="#f5d9ac" stroke-width="1.5"/>
+  </g>
+  <circle cx="203" cy="51" r="2" fill="#dce1ef"/>
+  <circle cx="48" cy="190" r="1.5" fill="#9dbfe9"/>
+</svg>
