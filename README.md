@@ -133,6 +133,8 @@ Live capture requires **macOS 14.2 or later**. The theme works independently on 
 
 [Explore Horizon Pulse →][pulse]
 
+[Install Horizon Pulse from the VS Code Marketplace][pulse-marketplace]
+
 <br />
 
 ## Color Palette Reference
@@ -222,8 +224,10 @@ Created and maintained by **Hamiz Ali**, published as **blankmax**.
 </p>
 
 [repository]: https://github.com/blink616/event-horizon-vscode
+[marketplace]: https://marketplace.visualstudio.com/items?itemName=blankmax.darkroom-theme
 [issues]: https://github.com/blink616/event-horizon-vscode/issues
 [creator]: https://github.com/blink616
 [changelog]: https://github.com/blink616/event-horizon-vscode/blob/main/CHANGELOG.md
 [pulse]: https://github.com/blink616/event-horizon-vscode/tree/main/companion#readme
+[pulse-marketplace]: https://marketplace.visualstudio.com/items?itemName=blankmax.horizon-pulse
 [pulse-development]: https://github.com/blink616/event-horizon-vscode/tree/main/companion#development
