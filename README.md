@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="images/banner.png" alt="Darkroom: a gold and violet accretion ring against a near-black sky" width="1200" />
+  <img src="images/banner.png" alt="Blackhole: a gold and violet accretion ring against a near-black sky" width="1200" />
 </div>
 
 <br />
 
-<h1 align="center">Darkroom: Event Horizon</h1>
+<h1 align="center">Blackhole: Event Horizon</h1>
 
 <p align="center">
   Near-black surfaces. Starlight syntax. A little gravity for your editor.
@@ -35,7 +35,7 @@
 
 ## About
 
-Darkroom: Event Horizon is a dark color theme for Visual Studio Code, inspired by the light around a black hole. Near-black panels frame a cool editor surface, while warm gold, soft violet, and icy blue give your code its structure.
+Blackhole: Event Horizon is a dark color theme for Visual Studio Code, inspired by the light around a black hole. Near-black panels frame a cool editor surface, while warm gold, soft violet, and icy blue give your code its structure.
 
 - **A coordinated workspace:** editor, sidebar, terminal, Git diffs, and diagnostics share one palette.
 - **Distinct syntax colors:** functions, keywords, types, variables, and strings each have their place.
@@ -67,10 +67,10 @@ Darkroom: Event Horizon is a dark color theme for Visual Studio Code, inspired b
 ## Easy Installation
 
 1. Open the **Extensions** sidebar with <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd> on macOS, or <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd> on Windows/Linux.
-2. Search for **Darkroom: Event Horizon** by **blankmax**.
+2. Search for **Blackhole: Event Horizon** by **blankmax**.
 3. Click **Install**.
 4. Open the Command Palette and run **Preferences: Color Theme**.
-5. Select **Darkroom: Event Horizon**.
+5. Select **Blackhole: Event Horizon**.
 
 Requires **VS Code 1.85.0 or later**. The theme works on macOS, Windows, and Linux.
 
@@ -90,7 +90,7 @@ Or install from your terminal:
 code --install-extension blankmax.darkroom-theme
 ```
 
-For a downloaded `.vsix` file, run **Extensions: Install from VSIX…** from the Command Palette. After installation, select **Darkroom: Event Horizon** through **Preferences: Color Theme**.
+For a downloaded `.vsix` file, run **Extensions: Install from VSIX…** from the Command Palette. After installation, select **Blackhole: Event Horizon** through **Preferences: Color Theme**.
 
 <br />
 
@@ -100,7 +100,7 @@ The theme works with your existing editor setup. To select it and explicitly ena
 
 ```json
 {
-  "workbench.colorTheme": "Darkroom: Event Horizon",
+  "workbench.colorTheme": "Blackhole: Event Horizon",
   "editor.semanticHighlighting.enabled": true
 }
 ```
@@ -160,11 +160,11 @@ Live capture requires **macOS 14.2 or later**. The theme works independently on 
 
 ### Does it work with my programming language?
 
-Darkroom styles TextMate scopes and semantic token types supplied by VS Code and your language extensions. Exact highlighting depends on the language and its extension. If something looks wrong, [open an issue][issues] with a small code sample.
+Blackhole styles TextMate scopes and semantic token types supplied by VS Code and your language extensions. Exact highlighting depends on the language and its extension. If something looks wrong, [open an issue][issues] with a small code sample.
 
 ### Do I need a special font or icon pack?
 
-No. Darkroom works with your existing font and icon theme.
+No. Blackhole works with your existing font and icon theme.
 
 ### Does the theme react to music?
 
@@ -221,7 +221,6 @@ Created and maintained by **Hamiz Ali**, published as **blankmax**.
   Made by <a href="https://github.com/blink616">Hamiz Ali</a> · Inspired by the event horizon.
 </p>
 
-[marketplace]: https://marketplace.visualstudio.com/items?itemName=blankmax.darkroom-theme
 [repository]: https://github.com/blink616/event-horizon-vscode
 [issues]: https://github.com/blink616/event-horizon-vscode/issues
 [creator]: https://github.com/blink616
