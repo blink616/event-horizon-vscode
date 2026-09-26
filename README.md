@@ -1,41 +1,26 @@
-<div align="center">
-  <img src="images/banner.png" alt="Blackhole: a gold and violet accretion ring against a near-black sky" width="1200" />
-</div>
-
-<br />
-
-<h1 align="center">Blackhole: Event Horizon</h1>
-
 <p align="center">
-  Near-black surfaces. Starlight syntax. A little gravity for your editor.
+  <img src="images/banner.png" alt="Original Event Horizon banner: a gold and violet accretion ring against a near-black sky" width="1200" />
+  <br />
+  <img src="images/event-horizon-banner.png" alt="Darkroom: Event Horizon theme banner with a black hole and palette colors" width="1200" />
 </p>
 
+# Darkroom: Event Horizon
+
+Near-black surfaces. Starlight syntax. A little gravity for your editor.
+
 <div align="center">
 
-[![Install for VS Code](https://img.shields.io/badge/VS_Code-Install-edc182?style=for-the-badge&labelColor=10121c)][marketplace]
+[![Install from Marketplace](https://img.shields.io/badge/VS_Code-Install-edc182?style=for-the-badge&labelColor=10121c)][marketplace]
 [![Version 0.1.0](https://img.shields.io/badge/Version-0.1.0-b9a0f7?style=for-the-badge&labelColor=10121c)][changelog]
-[![VS Code 1.85+](https://img.shields.io/badge/VS_Code-1.85%2B-95d2d5?style=for-the-badge&labelColor=10121c)][marketplace]
 [![License MIT](https://img.shields.io/badge/License-MIT-b8caa0?style=for-the-badge&labelColor=10121c)](LICENSE)
 
 </div>
 
-<br />
-
-<p align="center">
-  <strong>Gold functions · Violet keywords · Cyan variables · Optional audio visualization</strong>
-</p>
-
-<p align="center">
-  Created by <a href="https://github.com/blink616">Hamiz Ali</a> · Publisher <code>blankmax</code>
-</p>
-
-<br />
-
----
+Gold functions · Violet keywords · Cyan variables · Optional audio visualization
 
 ## About
 
-Blackhole: Event Horizon is a dark color theme for Visual Studio Code, inspired by the light around a black hole. Near-black panels frame a cool editor surface, while warm gold, soft violet, and icy blue give your code its structure.
+Darkroom: Event Horizon is a dark color theme for Visual Studio Code, inspired by the light around a black hole. Near-black panels frame a cool editor surface, while warm gold, soft violet, and icy blue give your code its structure.
 
 - **A coordinated workspace:** editor, sidebar, terminal, Git diffs, and diagnostics share one palette.
 - **Distinct syntax colors:** functions, keywords, types, variables, and strings each have their place.
@@ -44,41 +29,29 @@ Blackhole: Event Horizon is a dark color theme for Visual Studio Code, inspired 
 - **Lightweight:** the theme contains no runtime code, production dependencies, telemetry, or network requests.
 - **Free and open source:** MIT licensed, with editable TypeScript sources.
 
-<br />
-
 ## Table of Contents
 
 - [About](#about)
-- [Easy Installation](#easy-installation)
-- [Alternate Installation](#alternate-installation)
+- [Install](#install)
 - [Recommended Settings](#recommended-settings)
 - [Horizon Pulse](#horizon-pulse)
 - [Color Palette Reference](#color-palette-reference)
 - [Frequently Asked Questions](#frequently-asked-questions)
 - [Feedback and Contributions](#feedback-and-contributions)
 - [Development](#development)
-- [About the Creator](#about-the-creator)
 - [License](#license)
 
-<br />
-
----
-
-## Easy Installation
+## Install
 
 1. Open the **Extensions** sidebar with <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd> on macOS, or <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd> on Windows/Linux.
-2. Search for **Blackhole: Event Horizon** by **blankmax**.
+2. Search for **Darkroom: Event Horizon** by **blankmax**.
 3. Click **Install**.
 4. Open the Command Palette and run **Preferences: Color Theme**.
-5. Select **Blackhole: Event Horizon**.
+5. Select **Darkroom: Event Horizon**.
 
 Requires **VS Code 1.85.0 or later**. The theme works on macOS, Windows, and Linux.
 
-<br />
-
-## Alternate Installation
-
-Open Quick Open with <kbd>Cmd</kbd> + <kbd>P</kbd> on macOS or <kbd>Ctrl</kbd> + <kbd>P</kbd> on Windows/Linux, then paste:
+You can also install from Quick Open with <kbd>Cmd</kbd> + <kbd>P</kbd> on macOS or <kbd>Ctrl</kbd> + <kbd>P</kbd> on Windows/Linux:
 
 ```text
 ext install blankmax.darkroom-theme
@@ -90,9 +63,7 @@ Or install from your terminal:
 code --install-extension blankmax.darkroom-theme
 ```
 
-For a downloaded `.vsix` file, run **Extensions: Install from VSIX…** from the Command Palette. After installation, select **Blackhole: Event Horizon** through **Preferences: Color Theme**.
-
-<br />
+For a downloaded `.vsix`, run **Extensions: Install from VSIX…** from the Command Palette, then select **Darkroom: Event Horizon** as your color theme.
 
 ## Recommended Settings
 
@@ -107,19 +78,9 @@ The theme works with your existing editor setup. To select it and explicitly ena
 
 Keep your preferred font, icon theme, and editor layout. No additional extension is required.
 
-<br />
-
----
-
 ## Horizon Pulse
 
-<p align="center">
-  <img src="images/icon.png" alt="Horizon Pulse black hole icon" width="128" />
-</p>
-
-<p align="center">
-  <strong>A black hole that moves with your music.</strong>
-</p>
+**A black hole that moves with your music.**
 
 [Horizon Pulse][pulse] is a separate, optional companion extension. A gold accretion disk responds to bass, violet light follows the midrange, and particles react to treble inside VS Code's bottom panel.
 
@@ -131,11 +92,7 @@ Keep your preferred font, icon theme, and editor layout. No additional extension
 
 Live capture requires **macOS 14.2 or later**. The theme works independently on all supported platforms.
 
-[Explore Horizon Pulse →][pulse]
-
-[Install Horizon Pulse from the VS Code Marketplace][pulse-marketplace]
-
-<br />
+[Install Horizon Pulse from the Marketplace][pulse-marketplace] · [Companion details][pulse]
 
 ## Color Palette Reference
 
@@ -154,15 +111,11 @@ Live capture requires **macOS 14.2 or later**. The theme works independently on 
 | Numbers and constants    | `#e4a3b5` | Redshift       |
 | Comments                 | `#7f8aa5` | Distant light  |
 
-<br />
-
----
-
 ## Frequently Asked Questions
 
 ### Does it work with my programming language?
 
-Blackhole styles TextMate scopes and semantic token types supplied by VS Code and your language extensions. Exact highlighting depends on the language and its extension. If something looks wrong, [open an issue][issues] with a small code sample.
+The theme styles TextMate scopes and semantic token types supplied by VS Code and your language extensions. Exact highlighting depends on the language and its extension. If something looks wrong, [open an issue][issues] with a small code sample.
 
 ### Do I need a special font or icon pack?
 
@@ -180,13 +133,9 @@ Automated checks verify at least **4.5:1 contrast** for base syntax foregrounds 
 
 Yes. VS Code's `workbench.colorCustomizations` and `editor.tokenColorCustomizations` settings let you override individual colors. For source changes, edit the TypeScript files in `src/` and rebuild.
 
-<br />
-
 ## Feedback and Contributions
 
 Found a highlighting issue or have an idea? [Open an issue][issues] or contribute on [GitHub][repository]. Include your VS Code version, language extension, and a short code sample or screenshot when reporting a visual problem.
-
-<br />
 
 ## Development
 
@@ -199,34 +148,17 @@ pnpm check
 pnpm package
 ```
 
-The TypeScript sources in `src/` generate the theme JSON, icon, and README banner. Commit the generated files alongside their sources. Use `pnpm watch` while editing, then select **Preview Event Horizon** in Run and Debug to launch the development host.
+The TypeScript sources in `src/` generate the theme JSON and icon. The README banners are maintained as PNG files in `images/`. Commit generated theme and icon files alongside their sources. Use `pnpm watch` while editing, then select **Preview Event Horizon** in Run and Debug to launch the development host.
 
 `pnpm package` creates a VSIX in `dist/`, containing only the manifest, theme, images, README, changelog, and license. For the visualizer, see the [Horizon Pulse development instructions][pulse-development].
-
-<br />
-
-## About the Creator
-
-Created and maintained by **Hamiz Ali**, published as **blankmax**.
-
-[GitHub][creator] · [Source code][repository] · [Changelog][changelog]
-
-<br />
 
 ## License
 
 [MIT](LICENSE) · Copyright © 2026 Hamiz Ali
 
-<br />
-
-<p align="center">
-  Made by <a href="https://github.com/blink616">Hamiz Ali</a> · Inspired by the event horizon.
-</p>
-
 [repository]: https://github.com/blink616/event-horizon-vscode
 [marketplace]: https://marketplace.visualstudio.com/items?itemName=blankmax.darkroom-theme
 [issues]: https://github.com/blink616/event-horizon-vscode/issues
-[creator]: https://github.com/blink616
 [changelog]: https://github.com/blink616/event-horizon-vscode/blob/main/CHANGELOG.md
 [pulse]: https://github.com/blink616/event-horizon-vscode/tree/main/companion#readme
 [pulse-marketplace]: https://marketplace.visualstudio.com/items?itemName=blankmax.horizon-pulse
