@@ -1,0 +1,8 @@
+**/*
+!package.json
+!README.md
+!LICENSE
+!media/**
+!dist/extension.cjs
+!dist/visualizer.js
+!dist/native/**

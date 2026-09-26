@@ -1,0 +1,82 @@
+{
+  "name": "horizon-pulse",
+  "displayName": "Horizon Pulse",
+  "description": "An optional, local system-audio visualizer for Darkroom: Event Horizon. No microphone, recordings, or cloud services.",
+  "version": "0.1.0",
+  "publisher": "blankmax",
+  "author": {
+    "name": "Hamiz Ali"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blink616/event-horizon-vscode.git",
+    "directory": "companion"
+  },
+  "homepage": "https://github.com/blink616/event-horizon-vscode/tree/main/companion#readme",
+  "bugs": {
+    "url": "https://github.com/blink616/event-horizon-vscode/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "visualizer",
+    "music",
+    "darkroom",
+    "audio"
+  ],
+  "main": "./dist/extension.cjs",
+  "extensionKind": [
+    "ui"
+  ],
+  "icon": "media/icon.png",
+  "galleryBanner": {
+    "color": "#07080d",
+    "theme": "dark"
+  },
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": {
+      "supported": true
+    }
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "horizonPulse.open",
+        "title": "Open Visualizer",
+        "category": "Horizon Pulse"
+      },
+      {
+        "command": "horizonPulse.stop",
+        "title": "Stop System Audio",
+        "category": "Horizon Pulse"
+      }
+    ],
+    "viewsContainers": {
+      "panel": [
+        {
+          "id": "horizonPulse",
+          "title": "Horizon Pulse",
+          "icon": "media/pulse.svg"
+        }
+      ]
+    },
+    "views": {
+      "horizonPulse": [
+        {
+          "id": "horizonPulse.visualizer",
+          "name": "Event Horizon",
+          "type": "webview"
+        }
+      ]
+    }
+  },
+  "type": "module"
+}

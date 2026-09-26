@@ -1,0 +1,94 @@
+:root {
+  color-scheme: dark;
+  font-family: var(--vscode-font-family, system-ui, sans-serif);
+  color: #dce1ef;
+  background: #07080d;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+main {
+  position: relative;
+  height: 100vh;
+  min-height: 180px;
+}
+.universe {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  background: radial-gradient(ellipse at 50% 58%, #171323 0, #0b0c14 38%, #07080d 75%);
+}
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.controls {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+#capture {
+  position: relative;
+  width: 48px;
+  height: 28px;
+  padding: 3px;
+  cursor: pointer;
+  border: 1px solid #7d86a2;
+  border-radius: 999px;
+  background: #242838;
+  transition:
+    background 160ms ease,
+    border-color 160ms ease;
+}
+#capture::before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #dce1ef;
+  transition:
+    transform 160ms ease,
+    background 160ms ease;
+}
+#capture[aria-checked='true'] {
+  border-color: #edc182;
+  background: #edc182;
+}
+#capture[aria-checked='true']::before {
+  transform: translateX(20px);
+  background: #07080d;
+}
+#capture:hover:not(:disabled) {
+  border-color: #f5d9ac;
+}
+#capture:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+#capture:focus-visible {
+  outline: 2px solid #95d2d5;
+  outline-offset: 3px;
+}
+@media (prefers-reduced-motion: reduce) {
+  #capture,
+  #capture::before {
+    transition: none;
+  }
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}

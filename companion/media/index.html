@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; style-src {{cspSource}}; script-src 'nonce-{{nonce}}'; connect-src 'none'; img-src {{cspSource}};"
+    />
+    <link rel="stylesheet" href="{{style}}" />
+    <title>Horizon Pulse</title>
+  </head>
+  <body>
+    <main>
+      <section class="universe" aria-label="Audio-reactive black hole visualization">
+        <canvas id="universe" aria-hidden="true"></canvas>
+      </section>
+      <section class="controls" aria-label="Audio controls">
+        <button
+          id="capture"
+          type="button"
+          role="switch"
+          aria-label="System audio capture"
+          aria-checked="false"
+          aria-describedby="message"
+          disabled
+        ></button>
+        <p id="message" class="sr-only" role="status" aria-live="polite">Audio capture is off.</p>
+      </section>
+    </main>
+    <script nonce="{{nonce}}" src="{{script}}"></script>
+  </body>
+</html>

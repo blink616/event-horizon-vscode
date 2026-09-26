@@ -45,7 +45,12 @@
     "check": "pnpm typecheck && pnpm format:check && node --import tsx src/build.ts --check && pnpm test",
     "test": "node --import tsx --test tests/*.test.ts",
     "vscode:prepublish": "pnpm build && pnpm check",
-    "package": "vsce package --no-dependencies --out dist/"
+    "package": "vsce package --no-dependencies --out dist/",
+    "pulse:build": "node --import tsx scripts/build-pulse.ts",
+    "pulse:typecheck": "tsc -p companion/tsconfig.json && tsc -p companion/tsconfig.webview.json && tsc -p scripts/tsconfig.json",
+    "pulse:test": "node --import tsx --test companion/tests/*.test.ts",
+    "pulse:check": "pnpm pulse:typecheck && pnpm pulse:test",
+    "pulse:package": "pnpm pulse:check && node --import tsx scripts/build-pulse.ts --package"
   },
   "contributes": {
     "themes": [
@@ -61,7 +66,9 @@
   "devDependencies": {
     "@resvg/resvg-js": "2.6.2",
     "@types/node": "22.20.4",
+    "@types/vscode": "1.85.0",
     "@vscode/vsce": "4.0.0",
+    "esbuild": "0.28.2",
     "prettier": "3.9.9",
     "tsx": "4.23.15",
     "typescript": "7.0.2"
