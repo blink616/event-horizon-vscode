@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build theme",
+      "type": "shell",
+      "command": "pnpm build",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Build Horizon Pulse",
+      "type": "shell",
+      "command": "pnpm build && pnpm pulse:build",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

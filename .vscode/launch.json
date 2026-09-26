@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Preview Event Horizon",
+      "type": "extensionHost",
+      "request": "launch",
+      "preLaunchTask": "Build theme",
+      "args": ["--extensionDevelopmentPath=${workspaceFolder}", "${workspaceFolder}"]
+    },
+    {
+      "name": "Preview Horizon Pulse",
+      "type": "extensionHost",
+      "request": "launch",
+      "preLaunchTask": "Build Horizon Pulse",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceFolder}",
+        "--extensionDevelopmentPath=${workspaceFolder}/companion",
+        "--disable-extensions",
+        "${workspaceFolder}"
+      ]
+    }
+  ]
+}
