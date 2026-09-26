@@ -2,7 +2,7 @@
   "name": "horizon-pulse",
   "displayName": "Horizon Pulse",
   "description": "An optional, local system-audio visualizer for Darkroom: Event Horizon. No microphone, recordings, or cloud services.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "blankmax",
   "author": {
     "name": "Hamiz Ali"

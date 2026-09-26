@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1
+
+- Refresh the README with updated Marketplace links and banner artwork.
+
 ## 0.1.0
 
 - Initial release of Darkroom: Event Horizon.

@@ -11,7 +11,7 @@
 <div align="center">
 
 [![Install for VS Code](https://img.shields.io/badge/VS_Code-Install-edc182?style=for-the-badge&labelColor=10121c)][marketplace]
-[![Version 0.1.0](https://img.shields.io/badge/Version-0.1.0-b9a0f7?style=for-the-badge&labelColor=10121c)][repository]
+[![Version 0.1.1](https://img.shields.io/badge/Version-0.1.1-b9a0f7?style=for-the-badge&labelColor=10121c)][repository]
 [![macOS 14.2+](https://img.shields.io/badge/macOS-14.2%2B-95d2d5?style=for-the-badge&labelColor=10121c)](#requirements)
 [![License MIT](https://img.shields.io/badge/License-MIT-b8caa0?style=for-the-badge&labelColor=10121c)](LICENSE)
 
@@ -37,7 +37,7 @@
 
 An audio-reactive black hole for Visual Studio Code by **Hamiz Ali**. A gold accretion disk reacts to bass, violet light follows the midrange, and particles respond to treble—all inside the bottom panel.
 
-Horizon Pulse complements [Darkroom: Event Horizon](https://github.com/blink616/event-horizon-vscode#readme) and works with any VS Code theme.
+Horizon Pulse complements [Darkroom: Event Horizon](https://marketplace.visualstudio.com/items?itemName=blankmax.darkroom-theme) and works with any VS Code theme.
 
 <br />
 
